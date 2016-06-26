@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	width: 100%;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	color: white;
+	line-height: 1.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8rem;
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Limelight', cursive;
+	font-size: 5rem;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.2rem;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+	font-size: 1rem;
+	font-family: 'Times New Roman', Times, serif;
+	color: darkgray;
+}
+
+#side-bar {
+	margin-left: 0.1rem;
+	margin-top: 15rem;
+	position: fixed;
+	z-index: 10;
+	width: 5%;
+}
+
+#nav-bar {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 200;
+	box-shadow: 0px 3px 5px rgba(50, 50, 50, 1);
+	background-color: rgba(255, 255, 255, 0.75);
+	z-index: 10;
+	position: fixed;
+	padding-top: 1rem;
+	padding-bottom: 1.75rem;
+	font-size: 1.2rem;
+}
+
+#nav-bar h3 {
+	width: 30%;
+	position: relative;
+	top: 1rem;
+}
+
+#nav-bar a {
+	margin-left: 3rem;
+}
+
+#nav-bar a:hover {
+	-webkit-transition: ease-in-out, text-shadow 0.35s ease-in-out;
+	-moz-transition: ease-in-out, text-shadow 0.35s ease-in-out;
+	transition: ease-in-out, text-shadow 0.35s ease-in-out;
+	text-shadow: 0px 5px 7px rgba(150, 150, 150, 1);
+}
+
+#nav-bar img {
+	position: absolute;
+	width: 5rem;
+}
+
+#nav-bar-buttons {
+	font-size: 1rem;
+	margin-left: 40%;
+}
+
+.slider {
+	background-color: red;
+	position: absolute;
+	height: 1rem;
+}
+
+a:visited { text-decoration: none; color: rgb(91, 91, 91); }
+a:hover { text-decoration: none; color: rgb(91, 91, 91); }
+a:focus { text-decoration: none; color: rgb(91, 91, 91); }
+a:hover, a:active { text-decoration: none; color: rgb(91, 91, 91) }
+
+#first-banner {
+	background-attachment: fixed;
+	text-align: center;
+	height: 40rem;
+	background-image: url("properties/pictures/miami-home.jpeg");
+	background-size: 100% auto;
+}
+
+#first-banner h1 {
+	color: white;
+	position: relative;
+	top: 13rem;
+}
+
+#tiwwd-banner {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+
+#tiwwd-banner img {
+	width: 13rem;
+	border: 2px solid white;
+	box-shadow: 4px 4px 7px rgba(91, 91, 91, 1);
+}
+
+.tiwwd-element {
+	text-align: center;
+	display: inline-block;
+	width: 17.5%;
+	margin-left: 1.5rem;
+}
+
+.tiwwd-element h2 {
+	margin-bottom: 0.5rem;
+}
+
+.tiwwd-element h3 {
+	margin-bottom: 1rem;
+}
+
+#info-1 {
+	background-color: darkred;
+	padding-right: 4rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	width: 50%;
+}
+
+#info-1 p {
+	width: 70%;
+	padding: 1rem;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#info-1 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
+	color: white;
+}
+
+#info-1-background {
+	background-attachment: fixed;
+	background-image: url("properties/pictures/beach-house.jpg");
+	background-size: 100% auto;
+}
+
+#info-2 {
+	text-align: right;
+	margin-left: 42.5%;
+	background-color: black;
+	padding-right: 4rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	width: 50%;
+}
+
+#info-2 p {
+	margin-left: 30%;
+	width: 70%;
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#info-2 h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
+	color: white;
+}
+
+#info-2-background {
+	background-attachment: fixed;
+	background-image: url("properties/pictures/beach-house.jpg");
+	background-size: 100% auto;
+}
+
+#footer {
+	text-align: center;
+	background-attachment: fixed;
+	background-color: white;
+	/*background-image: url("properties/pictures/black-subtle.jpg");*/
+	height: 21rem;
+}
+
+#footer img {
+	margin-bottom: -2rem;
+	margin-top: 1rem;
+	width: 8rem;
+}
+
+#footer a {
+	font-size: 0.6rem;
+	border: 0px solid darkgray;
+	margin-left: 3rem;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+}
+
+#footer h2 {
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	margin-bottom: 2rem;
+}
+
+#footer h3 {
+	color: black;
+	word-spacing: 0.5rem;
+	font-size: 1.2rem;
+	margin-bottom: 3rem;
+}
